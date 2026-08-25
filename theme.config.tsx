@@ -8,12 +8,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/thisisouvik/kredex',
   footer: {
-    text: '© 2026 Kredex - Decentralized Micro-Lending on Stellar',
-  },
-  useNextSeoProps() {
-    return {
-      titleTemplate: '%s – Kredex'
-    }
+    content: '© 2026 Kredex - Decentralized Micro-Lending on Stellar',
   }
 }
 
