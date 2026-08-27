@@ -1,23 +1,37 @@
-# Nextra Docs Template 
+﻿# Kredex Documentation
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Welcome to the official documentation repository for **Kredex** — a Secure and Easy P2P Lending and Borrowing platform built on Trust and the Stellar network.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+[**View Official Documentation 🔗**](https://kredex-docs.vercel.app)
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+[**Visit Kredex Live Platform 🔗**](https://kredex.vercel.app/)
 
-## Quick Start
+## 📖 About This Repository
 
-Click the button to clone this repository and deploy it on Vercel:
+This repository contains the documentation source code for Kredex, built using [Nextra](https://nextra.site) and Next.js. It details the setup, architecture, smart contract functionality, and the cross-contract execution flows used by the main Kredex platform.
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+## 🚀 Kredex Ecosystem
 
-## Local Development
+- **Main Platform Repository:** [thisisouvik/kredex](https://github.com/thisisouvik/kredex)
+- **Live Platform:** https://kredex.vercel.app/
+- **Documentation Website:** https://kredex-docs.vercel.app/
 
-First, run `pnpm i` to install the dependencies.
+## 🛠 Local Development
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+If you want to run the documentation locally:
 
-## License
+1. Install dependencies:
+   `ash
+   npm install
+   `
 
-This project is licensed under the MIT License.
+2. Start the development server:
+   `ash
+   npm run dev
+   `
+
+3. Open [http://localhost:3000](http://localhost:3000) to view the documentation locally.
+
+## 📄 License
+
+This documentation is part of the Kredex ecosystem.
