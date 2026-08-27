@@ -12,7 +12,7 @@ Kredex's architecture is a hybrid of a modern Next.js 14 frontend and decentrali
 
 ## Smart Contracts
 
-Kredex relies on four primary Soroban smart contracts to handle trustless loan execution:
+Kredex relies on six primary Soroban smart contracts to handle trustless loan execution and DeFi functionality:
 
 | Contract Name | Functionality |
 | :--- | :--- |
@@ -20,6 +20,8 @@ Kredex relies on four primary Soroban smart contracts to handle trustless loan e
 | **Escrow** | Secures lender funds and manages collateral routing. Funds are held here until disbursement or repayment. |
 | **Lending** | Core loan logic, interest calculation, and repayment terms. Validates APR and duration. |
 | **Default Mgmt** | Handles liquidation thresholds, missed payments, and insurance payouts. |
+| **Liquidity Pool** | Manages automated pool liquidity, LP token minting, and dynamic utilization-based interest rate modeling. |
+| **Oracle Adapter** | Fetches off-chain price feeds (e.g. USDC, XLM) for undercollateralized loan health checks. |
 
 ## User Transaction Flow
 
